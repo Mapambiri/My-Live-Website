@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Button styles */
+    .button {
+        display: inline-block; /* Makes the link behave like a button */
+        padding: 10px 20px; /* Adds padding */
+        color: white; /* Text color */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        border: none; /* Remove border */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Change cursor to pointer */
+        margin: 5px; /* Add some margin */
+    }
+
+    .green-button {
+        background-color: #28a745; /* Green background color */
+    }
+
+    .green-button:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+
+    .blue-button {
+        background-color: #007BFF; /* Blue background color */
+    }
+
+    .blue-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a passionate developer, I craft engaging digital experiences using a combination of <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. With a strong foundation in web development, I design and build responsive, user-friendly websites that captivate audiences. My expertise in <span>HTML</span> allows me to structure content with precision, while <span>CSS</span> enables me to create visually stunning layouts. <span>JavaScript</span> brings interactivity to my projects, making them dynamic and immersive. I'm committed to staying up-to-date with the latest trends and technologies, ensuring my work is always innovative and effective.</p>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <h3>Programming</h3>
+                <img src="file:///C:/Users/Computer%20Lab-%20Delft/Desktop/Web%20Design/Live%20Website/hletechs.jpg" alt="Project 1">
+                <p>Where I got most of my inspiration and motivation along the way of programming and the tools use to achieve in the world of coding, also how to stay disciplined at all time.</p>
+            </div>
+            <div class="project">
+                <h3>Tutorials</h3>
+                <img src="file:///C:/Users/Computer%20Lab-%20Delft/Desktop/Web%20Design/Live%20Website/Dun.jpg" alt="Project 2">
+                <p>This project contains Coding tutorials which are easy to do and have guidelines also when done the is a exam for which you will get certification for your completion, The knowledge can be applied to our everyday use and at workplace. </p>
+            </div>
+            <div class="quote-generator">
+                <h2>Quote Generator</h2>
+                <p id="quote"></p>
+                <button id="generate-quote">Generate Quote</button>
+                <p>This project uses HTML, CSS, and JavaScript to create a simple quote generator. You can add this code to your website under your bio section. When the user clicks the "Generate Quote" button, a random quote will be displayed.</p>
+            </div>
+                          
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Check out my latest articles and tutorials on web development.</p>
+        <a href="https://hlewebhost.blogspot.com/2023/08/the-comprehensive-website-performance.html" target="_blank" class="button green-button">Visit Blog</a>
+        <br>
+        <a href="https://www.loom.com/share/4d5fdfaaf3814a00b2ea561224bce459?sid=a41ab65a-6a34-416d-bc8e-4915302957aa" target="_blank" class="button blue-button">Video Walkthrough</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+    <section id="contact">
+        
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

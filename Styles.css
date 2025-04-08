@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33% - 20px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  span {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .quote-generator {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-generator h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quote-generator p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-generator button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quote-generator button:hover {
+    background-color: #18b6ff;
+  }
+  .bio-paragraph {
+    opacity: 0;
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    background-color: #f2f2f2; /* Light gray background */
+  }
+  body {
+    background-image: linear-gradient(to bottom, #f2f2f2, #ffffff);
+  }
+  
+  .bio-paragraph {
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .quote-generator {
+    background-color: #a3f015d3; /* White background */
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+       
